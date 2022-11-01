@@ -29,7 +29,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="index.html">Inicio</a>
                         <a class="nav-link" href="#">Sobre Nosotros</a>
                         <a class="nav-link" href="#">Mas</a>
                     </div>
@@ -60,7 +60,7 @@ error_reporting(E_ALL^E_NOTICE);
         <div class="container my-3">
             <div class="row">
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 bg-white">
-                    <h2>Formulario de Pedido</h2>
+                    <h2>Ingrese su Pedido</h2>
                     <form>
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Su pedido será llevado a esta direccion:</label>
@@ -70,9 +70,24 @@ error_reporting(E_ALL^E_NOTICE);
                             <label for="descripcion" class="form-label">¿Alguna descripción del lugar a donde le llevaremos el pedido?</label>
                             <textarea class="form-control" id="descripcion" placeholder="El porton es rojo." rows="3"></textarea>
                         </div>
+                        <div class="mb-0">
+                            <label for="flexCheckDefault" class="form-label">Seleccione el metodo de pago:</label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" id="flexCheckDefault">
+                                Efectivo
+                            </label>
+                            <!--<select class="form-select" aria-label="Default select example">
+                                <option selected>Tarjeta</option>
+                                <option value="1">Uala</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>-->
+                        </div>
                         <div class="mb-3">
-                            <label for="programadores" class="form-label">Número de Programadores</label>
-                            <input type="number" class="form-control" id="programadores" />
+                            <label for="tarjeta" class="form-label">Número de Tarjeta</label>
+                            <input type="number" class="form-control" id="tarjeta" />
                         </div>
                         <div class="d-grid gap-2 mx-auto">
                             <button class="btn btn-outline-primary">Guardar</button>

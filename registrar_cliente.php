@@ -37,7 +37,7 @@
 			</div>
 			<div class="form-floating mb-3">
 				<input type="text" name="dir" maxlength="50" minlength="9" id="Input" class="form-control" id="floatingDir" placeholder="Dir" >
-				<label for="floatingDir"  class="label"><i class="bi bi-signpost-fill"></i></i>Direccion</label>				  
+				<label for="floatingDir"  class="label"><i class="bi bi-signpost"></i></i>Direccion</label>				  
 			</div>
 			<div class="d-grid gap-2 col-6 mx-auto">
 				<input class="btn btn-outline-primary" type="submit" name="enviar" value="Enviar">

@@ -44,13 +44,13 @@ echo "<table class='table table-dark table-striped'>
 		  <th>Nombre</th>
 		  <th>Descripcion</th>
 		  <th>Precio</th>
-		  <th colspan='5'>Cantidad</th>
+		  <th>Pedir</th>
       
 
         <tbody>";
 
 while ($fila=mysqli_fetch_assoc($resultado)){ 
-  // <link rel='stylesheet' href='css/estilos1.css'/> 
+  // <link rel='stylesheet' href='css/estilos1.css'/> 		colspan='5'   <img width='23px' src='imagenes/eye.png' title='Vista'>
 	$id_producto=$fila['id_producto']; 
 	$nombre=$fila['nombre']; 
 	$descripcion=$fila['descripcion']; 
@@ -69,44 +69,11 @@ while ($fila=mysqli_fetch_assoc($resultado)){
           
            <td> 
 															<div  class='' align='center'>
-																 <a href='verdetalle.php?valor=$id_producto' class='' >
-																 <img width='23px' src='imagenes/eye.png' title='Vista'>
+																 <a href='pedir.php?valor=$id_producto' class='' >
+																 <i class='bi bi-cart' title='Añadir'></i>
 																</a>
 															</div>
 														</td>
-														
-									<td class='/*IMAGEN*/'> 
-															<div  class='eye' align='center'>
-																 <a href='Inserta_y_Muestra_Foto.php?valor=$id_producto' class='' >
-																	<img width='18px' src='imagenes/usuario.png' title='Foto de Perfil'>
-																</a>
-															</div>
-														</td>
-														
-								
-								
-								<td class='/*MODIFICAR*/'>
-																		<div  class='trash' align='center'>
-																			<a href='mod_usuar.php?valor=$id_producto' class='link_m'>
-																				<img width='13px' src='imagenes/lapiz.png' title='Modificar'>
-																			</a>
-																		</div>
-																</td>
-								<td class='/*ELIMINAR*/'>
-																		<div class='trash'>
-																			<a href='baja_usuar.php?valor=$id_producto' class='eliminar_registro'>	
-																				<img width='13px' src='imagenes/trash.png' title='Eliminar'>
-																			</a>
-																		</div>
-																	</td>
-																	
-								<td class='/*Codigo de barras*/'>
-																		<div class='trash'>
-																			<a href='prueba.php?valor=$id_producto' class=''>
-																				<img width='26px' height='12px' src='imagenes/barcode.png' title='Generar Codigo de Barras'>																				
-																			</a>
-																		</div>
-																	</td>
 			
         </tr>";
 }

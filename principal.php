@@ -90,7 +90,7 @@ error_reporting(E_ALL^E_NOTICE);
                             <input type="number" class="form-control" id="tarjeta" />
                         </div>
                         <div class="d-grid gap-2 mx-auto">
-                            <button class="btn btn-outline-primary">Guardar</button>
+                            <input class="btn btn-outline-primary" value="Enviar"> 
                         </div>
                     </form>
                 </div>

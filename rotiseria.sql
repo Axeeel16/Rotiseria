@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 31-10-2022 a las 21:11:11
--- Versión del servidor: 10.4.18-MariaDB
--- Versión de PHP: 8.0.3
+-- Tiempo de generación: 01-11-2022 a las 21:18:14
+-- Versión del servidor: 10.4.24-MariaDB
+-- Versión de PHP: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -61,12 +61,12 @@ CREATE TABLE `productos` (
 --
 
 INSERT INTO `productos` (`id_producto`, `nombre`, `descripcion`, `precio`) VALUES
-(1, 'Pizza Simple', 'Pizza Grande con Queso', '850'),
-(2, 'Pizza Jamon y Queso', 'Pizza Grande con Jamon y Queso', '1100'),
-(3, 'Fugazzeta', 'Pizza Grande con Queso y Cebolla', '1000'),
-(4, 'Napolitana', 'Pizza Grande: Queso, Tomate y Aceituna', '1000'),
-(5, 'Primavera', 'Queso, Huevo, Tomate y Aceituna', '1200'),
-(6, 'Pizza de ananá', 'Pizza Grande: Queso, Jamon y Ananá', '1200');
+(1, 'Pizza Simple', 'Pizza Grande con Queso', '$850'),
+(2, 'Pizza Jamon y Queso', 'Pizza Grande con Jamon y Queso', '$1100'),
+(3, 'Fugazzeta', 'Pizza Grande con Queso y Cebolla', '$1000'),
+(4, 'Napolitana', 'Pizza Grande: Queso, Tomate y Aceituna', '$1000'),
+(5, 'Primavera', 'Queso, Huevo, Tomate y Aceituna', '$1200'),
+(6, 'Pizza de ananá', 'Pizza Grande: Queso, Jamon y Ananá', '$1200');
 
 --
 -- Índices para tablas volcadas

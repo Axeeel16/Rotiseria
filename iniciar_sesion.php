@@ -34,10 +34,10 @@
 				<input type="password" name="pass" maxlength="7" minlength="3" id="Input" class="form-control" id="floatingPassword" placeholder="Password" >
 				<label for="floatingPassword"  class="label"><i class="bi bi-file-lock"></i>Password</label><i class='bi bi-eye-fill'  id='eye' onclick="mostrar()"></i>
 			</div>
-			<div class="form-floating">
+			<div class="form-floating mb-3">
 				<input type="text" name="dir" maxlength="50" minlength="9" id="Input" class="form-control" id="floatingDir" placeholder="Dir" >
-				<label for="floatingDir"  class="label"><i class="bi bi-signpost-fill"></i></i>Direccion</label>				  
-			</div><br><br>
+				<label for="floatingDir"  class="label"><i class="bi bi-signpost"></i>Direccion</label>				  
+			</div>
 			<div class="d-grid gap-2 col-6 mx-auto">
 				<button type="submit" class="btn btn-outline-Primary">Enviar</button>
 			</div>	
@@ -45,6 +45,11 @@
 											
 								<script src="icon_eye.js"></script>
 									<!-- FOOTER-->
+	  <div class="iconos">
+		<a class="icon_enlace" href="#"><i class="bi bi-facebook" title="Facebook"></i></a>
+		<a href="#"><i class="bi bi-google" title="Google"></i></a>
+		<a href="#"><i class="bi bi-instagram" title="Instagram"></i></a>
+	  </div>
 <br><br><br><br><br><br><br><br><br><br><br><br>
 			<footer>
 				   <div class="container-fluid">
